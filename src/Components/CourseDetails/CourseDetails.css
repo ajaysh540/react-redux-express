@@ -1,0 +1,100 @@
+.display-course label{
+    font-size: 12px;
+    padding: 15px;
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.width-option{
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background{
+    background-color: black;
+    width: 100% !important;
+    min-height: 150px;
+    color: white;
+}
+
+.background div span{
+    font-size: 20px;
+    display: block;
+}
+
+.background div p{
+    font-size: 12px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.details-box{
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+.tag{
+    display: inline;
+    width: fit-content;
+    font-size: 12px;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.details-box label{
+    color: #FF9271;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.video-card{
+    height: 120%;
+    width: 100%;
+    border: 1px solid white;
+    background-color: black;
+    display: flex;
+}
+.video-card img{
+    width: 100px;
+    margin: auto;
+}
+.order-last div label,del{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+
+.order-last div label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.order-last div del{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+.cart-btn{
+    background-color: #FF6738;
+    border: 1px solid white;
+    color: white;
+}
+.wishlist-btn{
+    background-color: transparent;
+    border: 1px solid #FF6738;
+    color: #FF6738;
+}
+
+.cart-btn,.wishlist-btn{
+    min-width: 40%;
+    padding: 10px;
+    margin: 10px;
+}

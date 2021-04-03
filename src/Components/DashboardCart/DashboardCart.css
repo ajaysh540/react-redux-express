@@ -1,0 +1,38 @@
+.price-bar {
+  margin-top: auto;
+  border-top: 1px solid grey;
+  padding-top:10px ;
+  min-height: 10vh;
+  display: flex;
+  font-size: 14px;
+}
+.price-bar label {
+  font-size: 24px;
+  font-weight: bold;
+}
+.cart-course {
+  width: 100%;
+  min-height: 80px;
+  height: auto;
+  margin-bottom: 5px;
+  text-align: right;
+  padding: 5px;
+  padding-left: 25%;
+}
+.cart-course label {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+
+.checkout-btn {
+  border: none;
+  background-color: transparent;
+  color: #e25b32;
+  font-size: 12px;
+}
+.outer-border{
+  max-height: 100vh;
+}

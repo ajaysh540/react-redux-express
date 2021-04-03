@@ -1,0 +1,48 @@
+.secondary-header {
+  height: 50px;
+  margin-bottom: 10px;
+}
+.secondary-header div button {
+  background-color: #e25b32;
+  border: none;
+  color: white;
+  height: 30px;
+  font-size: 14px;
+}
+
+.secondary-header div button img {
+  width: 20px;
+}
+.pagination-bar {
+  height: 50px;
+  display: flex;
+  width: 80%;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.pagination-bar button {
+  margin-top: auto;
+  border: none;
+  background-color: transparent;
+  margin-bottom: auto;
+}
+.course-sort {
+  font-family: "Montserrat-Medium, Montserrat";
+  padding: 5px;
+  width: fit-content;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.active {
+  background-color: #e25b32 !important;
+  border-radius: 15px;
+  color: white;
+}
+
+.courses-list {
+  min-height: 100vh;
+}

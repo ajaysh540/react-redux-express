@@ -1,0 +1,64 @@
+.course-card {
+    min-height: 75px;
+    margin-top: 10px;
+  }
+  
+  .tags {
+    background-color: #e25b32;
+    border: none;
+    display: inline-block;
+    color: white;
+    margin: 0.5em;
+    min-width: 70px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    text-transform: capitalize;
+  }
+  
+  .course-name {
+    font-size: 18px !important;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+  }
+  .course-cost{
+    font-size: 12px;
+  }
+  .course-cost del {
+    font-weight: 200;
+    font-size: 10px;
+    overflow-wrap: break-word;
+  }
+  .course-cost button {
+    border: none;
+    background-color: transparent;
+  }
+  .course-cost button img{
+    width: 25px;
+    height: 25px;
+  }
+  
+  .add-to-cart {
+    text-align: center;
+  }
+  .add-to-cart button {
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 10px;
+    background-color: #e25b32;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: fit-content;
+    color: white;
+  }
+  
+  .course-card .small{
+    font-size: 12px;
+  }
+  .wish-del-btn{
+    border:none;
+    background-color: transparent;
+    max-width: 25px;
+  }

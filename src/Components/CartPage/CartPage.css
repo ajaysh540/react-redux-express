@@ -1,0 +1,49 @@
+.cart-card {
+  min-height: 70px;
+}
+
+#course-name {
+  font-weight: 600;
+}
+
+#course-author {
+  font-weight: 400;
+  color: grey;
+  font-size: 12px;
+}
+
+.whishlist-button {
+  font-size: 12px;
+  color: #1873ce;
+}
+
+.cart-card span button {
+  height: 30px;
+  border: none;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.del-icon {
+  height: 25px;
+}
+
+.total-price {
+  max-height: 200px !important;
+}
+.total-price label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.total-price p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: green;
+}
+
+.total-price button{
+  background-color: #e25b32;
+  color: white;
+  border: none
+}

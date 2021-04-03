@@ -1,0 +1,27 @@
+.dialog-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid rgb(37, 34, 34);
+  display: flex;
+}
+
+.dialog-box .alert {
+  color: black;
+  margin: auto;
+  border: 2px solid white;
+  background-color: white;
+  min-height: 20vh;
+  min-width: 30vw;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.dialog-box .alert button {
+  margin-left: auto;
+  margin-bottom: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+}

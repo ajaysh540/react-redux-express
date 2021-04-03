@@ -1,0 +1,18 @@
+.dashboard {
+  width: 85%;
+}
+.header-text {
+  background-image: url("./Assets/DashboardHeader.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  color: white;
+  height: 111px;
+  background-color: black;
+}
+
+.header-text span {
+  max-width: 398px !important;
+  max-height: 76px;
+  font-size: 20px;
+}

@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  font-family: Montserrat !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./Assets/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
